@@ -1,0 +1,87 @@
+.logo{
+    width: 67px;
+    color: yellow;
+    margin-bottom: 4px;
+}
+.head{
+    background-color: #F7F8F9;
+}
+.Field{
+    width: 140px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+.link{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+margin-top: 12px;
+text-decoration: underline;
+}
+.sell{
+    width: 100px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.inner{
+    display: inline-block;
+    margin-left: 60px;
+}
+.login{
+    text-decoration: underline;
+}
+.head{
+    height: 70px;
+}
+.listab{
+    display: inline-block;
+}
+.lista .listab  :hover{
+    color: lightblue;
+}
+.nn{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.adds{
+    margin: auto;
+    display: block;
+}
+.listv{
+    display: flex;
+}
+@media only screen and (min-width: 1280px) {
+    .card{
+        width: 17rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .Field {
+      display: none;
+    }
+    .bbs{
+        margin: auto !important;
+    }
+    .login{
+        display: none;
+    }
+    .cent{
+        margin-top: 20px;
+    }
+    
+    .cate{
+margin: auto;    }
+    .sell{
+        margin-top: -25px;
+    }
+    .insided{
+display: none;
+    }
+    .newd{
+        display: none;
+    }
+    .searchb{
+        display: none;
+    }
+  }

@@ -4,6 +4,13 @@ import watch from "../images/watch.jpg"
 import civic from "../images/civicab.jpg"
 import phone from "../images/iphone.jpg"
 import lappy from "../images/lappya.jpg"
+import tax from "../images/tax.png"
+import r1 from "../images/r1.png"
+import gym from "../images/gym.png"
+import map from "../images/map.png"
+import mobile from "../images/mobile.png"
+import bench from "../images/bench.png"
+
 
 
 
@@ -16,97 +23,107 @@ class Cards extends React.Component{
     <br/>
 <div className="row bbs">
     <div className="col-xs-3 col-sm-3 col-md-3">
-    <div className="card" >
-        <img src={watch} className="card-img-top" alt="..." />
+    <div className="card" style={{width: '14rem'}}>
+        <img src={civic} className="card-img-top img-fluid nns" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">RS 3500</h5>
-          <p className="card-text">Jaeger-LeCoultre. Water Resistance  Pulse </p>
-          <a href="#" className="btn btn-primary">See Details</a>
+          
+          <h5>RS 5,00000</h5>
+          <p className="card-text">Civic For Sale 8/10 Condition</p>
         </div>
-      </div>
+      </div>      </div>
+      <div className="col-xs-3 col-sm-3 col-md-3">
+
+      <div className="card" style={{width: '14rem'}}>
+        <img src={watch} className="card-img-top img-fluid pt-1 nns" alt="..." />
+        <div className="card-body">
+          <h5>RS 7,000</h5>
+          <p className="card-text">Original Watch Water Proof, </p>        </div>
+      </div> 
+        </div>
+      <div className="col-xs-3 col-sm-3 col-md-3">
+      <div className="card" style={{width: '14rem'}}>
+        <img src={lappy} className="card-img-top img-fluid nns" alt="..." />
+        <div className="card-body">
+        <h5>RS 35,000</h5>
+        <p className="card-text">Core i7 7th generation </p>        
+          
+        </div>
+      </div> 
+      
       </div>
       <div className="col-xs-3 col-sm-3 col-md-3">
 
-      <div className="card" >
-        <img src={civic} className="card-img-top" alt="..." />
+      <div className="card" style={{width: '14rem'}}>
+        <img src={r1} className="card-img-top img-fluid nns" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">Rs 650000</h5>
-          <p className="card-text">I am selling my honda civic 1997.</p>
-          <a href="#" className="btn btn-primary">See Details</a>
-        </div>
-      </div>
-      </div>
-      <div className="col-xs-3 col-sm-3 col-md-3">
-      <div className="card" >
-        <img src={phone} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Rs 49,000</h5>
-          <p className="card-text">iPhone 7 plus mint condition,Mint condition</p>
-          <a href="#" className="btn btn-primary">See Details</a>
-        </div>
-      </div>
+        <h5>RS 85,000</h5>
 
-      </div>
-      <div className="col-xs-3 col-sm-3 col-md-3">
+        <p className="card-text">Yamaha YZF R1 Skull Edition </p>        
 
-      <div className="card" >
-        <img src={lappy} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Rs 35,000</h5>
-          <p className="card-text">Core i5 5th generation </p>
-          <a href="#" className="btn btn-primary">See Details</a>
         </div>
-      </div>
-      </div>
+      </div> 
+            </div>
 </div>
 <br/>
 <div className="row bbs">
     <div className="col-xs-3 col-sm-3 col-md-3">
-    <div className="card" >
-        <img src={watch} className="card-img-top" alt="..." />
+    <div className="card" style={{width: '14rem'}}>
+        <img src={gym} className="card-img-top img-fluid nns" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">RS 3500</h5>
-          <p className="card-text">Jaeger-LeCoultre. Water Resistance Pulse</p>
-          <a href="#" className="btn btn-primary">See Details</a>
+        <h5>RS  325,000</h5>
+
+<p className="card-text">Whole of GYM Equipments </p>   
+
         </div>
+      </div> 
+        </div>
+      <div className="col-xs-3 col-sm-3 col-md-3">
+
+      <div className="card" style={{width: '14rem'}}>
+        <img src={map} className="card-img-top img-fluid nns" alt="..." />
+        <div className="card-body">
+        <h5>RS  2,350,000</h5>
+
+<p className="card-text">5 Marla plot in DHA T sector </p>   
+
+        </div>
+      </div> 
       </div>
+      <div className="col-xs-3 col-sm-3 col-md-3">
+      <div className="card" style={{width: '14rem'}}>
+        <img src={bench} className="card-img-top img-fluid nns" alt="..." />
+        <div className="card-body">
+        <h5>RS 21,000</h5>
+
+<p className="card-text">Garden outdoor bench, 4 feet size </p>   
+
+
+        </div>
+      </div> 
+      
       </div>
       <div className="col-xs-3 col-sm-3 col-md-3">
 
-      <div className="card" >
-        <img src={civic} className="card-img-top" alt="..." />
+      <div className="card" style={{width: '14rem'}}>
+        <img src={mobile} className="card-img-top img-fluid nns" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">Rs 650000</h5>
-          <p className="card-text">I am selling my honda civic 1997.</p>
-          <a href="#" className="btn btn-primary">See Details</a>
-        </div>
-      </div>
-      </div>
-      <div className="col-xs-3 col-sm-3 col-md-3">
-      <div className="card" >
-        <img src={phone} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Rs 49,000</h5>
-          <p className="card-text">iPhone 7 plus mint condition, Mint Condition</p>
-          <a href="#" className="btn btn-primary">See Details</a>
-        </div>
-      </div>
+        <h5>RS 95,000</h5>
 
-      </div>
-      <div className="col-xs-3 col-sm-3 col-md-3">
+<p className="card-text">iPhone xs max PTA approved, Single Sim </p>   
 
-      <div className="card" >
-        <img src={lappy} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Rs 35,000</h5>
-          <p className="card-text">Core i5 5th generation </p>
-          <a href="#" className="btn btn-primary">See Details</a>
+
         </div>
-      </div>
+      </div> 
       </div>
 </div>
+</div>
+<br />
+<br />
+<div className="tax">
+<img src={tax} alt=""tax image className="img-fluid"/>
 </div>
             </div>
+            
         )
     }
 }

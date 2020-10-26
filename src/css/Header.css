@@ -51,11 +51,26 @@ text-decoration: underline;
 .listv{
     display: flex;
 }
+.card{
+    display: block;
+    margin: auto;
+}
 @media only screen and (min-width: 1280px) {
     .card{
         width: 17rem;
     }
 }
+
+.nns{
+    height: 216px !important;
+    border: 2px solid gray;
+    border-radius: 2px;
+    box-shadow: 2px 2px lightgray;
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
     .Field {
       display: none;
@@ -68,6 +83,9 @@ text-decoration: underline;
     }
     .cent{
         margin-top: 20px;
+    }
+    .tax{
+        width: 300px !important;
     }
     
     .cate{
@@ -85,3 +103,10 @@ display: none;
         display: none;
     }
   }
+  .tax{
+      width: 700px;
+      display: block;
+      margin: auto;
+  }
+  
+   

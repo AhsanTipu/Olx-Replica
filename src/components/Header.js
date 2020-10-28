@@ -2,6 +2,9 @@ import React from 'react';
 import logo from '../images/logo.png'
 import '../css/Header.css'
 import sell from '../images/sell.png'
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { TextField } from '@material-ui/core';
 
 
 
@@ -13,7 +16,11 @@ class Header extends React.Component{
 <div className="row">
 <div className="col-4 pt-2 ">
 <img src={logo} alt="Logo" className="logo"/>
-<input type="text"  className="Field"/>
+<TextField className="headm">
+<FontAwesomeIcon icon={faSearch} />
+    
+</TextField>
+
 </div>
 <div className="col-4  ">
 <h1 className="searchb">AHSAN</h1>

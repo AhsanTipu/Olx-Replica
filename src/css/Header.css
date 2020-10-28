@@ -109,4 +109,53 @@ display: none;
       margin: auto;
   }
   
+   .footera{
+       background-color: #F7F8F9 !important;
+   }
+   .apple{
+       font-size: 30px;
+       color: white;
+       margin-bottom: -14px !important;
+   }
+   .tex{
+       color: white;
+   }
    
+   .texa{
+ font-size: 11px;
+    color: white;
+}
+.czx{
+    background-color: black !important;
+}
+.insidea{
+    margin-top: 50px;
+    background-color: #F7F8F9 !important;
+    border-left: 2px solid gray;
+    padding-left: 19px;
+}
+.insideaz{
+    margin-top: 50px;
+    background-color: #F7F8F9 !important;
+    
+}
+.footerb{
+    background-color: #EBEEEF;
+    border-top: 2px solid lightgray;
+}
+.la{
+font-size: 13px;
+color: gray;
+text-decoration: none;
+list-style: none;
+}
+.end{
+    background-color: #002F34;
+}
+.asd{
+    text-align: right;
+    font-size: 13px;
+}
+.asa{
+    font-size: 13px;
+}
